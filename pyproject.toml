@@ -1,0 +1,11 @@
+[project]
+name = "blackhawks-ticket-dashboard"
+version = "0.1.0"
+description = "Streamlit dashboard for Blackhawks ticket/account foundation data"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit",
+  "pandas",
+  "plotly",
+  "pgeocode",
+]
